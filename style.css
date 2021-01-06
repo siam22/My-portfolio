@@ -17,7 +17,7 @@ section {
 #first {
     color: blueviolet;
 }
-#header-color {
+.header-color {
     color: red;
 }
 .half-width {
@@ -68,17 +68,18 @@ section {
 .new-width img {
     width: 90%;
 }
-#new-id {
+.new-class {
     color:orchid;
 }
 .forth-section {
-    background-color:beige;
+    background-color:lightskyblue;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    
     
 }
 .last-section {
+    width: 1500px;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -93,21 +94,29 @@ section {
   background-size: 800px 200px;
   height: 200px;
   color: white;
-  float: inline-start;  
+  padding-top: 20px;
+  margin-left: 10px;
+  
 }
+ 
 #final-button {
-    background-image: linear-gradient(45deg, yellow, green);
+
+
+  background-image: linear-gradient(45deg, yellow, green);
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
 }
 .no-more-width {
-    background-image: url("images/icon-1.png");
-    background-size: 150px 100px 150px 100px;
-    background-repeat: no-repeat;
-    text-align:center;
-    padding-top: 1px 50px;
+    padding-top: 80px;
+}
+.no-more-width img {
+    width: 3%;
+}
+footer p {
+    font-size: 12px;
+    text-align: center;
 }
 
     
