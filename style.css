@@ -74,9 +74,7 @@ section {
 .forth-section {
     background-color:lightskyblue;
     text-align: center;
-    padding-top: 30px;
-    
-    
+    padding-top: 30px;   
 }
 .last-section {
     width: 1500px;
@@ -85,31 +83,34 @@ section {
     padding-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 .last-width {
-  background-image: url("images/nope.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 800px 200px;
-  height: 200px;
-  color: white;
-  padding-top: 20px;
-  margin-left: 10px;
-  
+    background-image: url("images/nope.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+    height: 200px;
+    color: white;
+    padding-top: 50px;
 }
- 
 #final-button {
-
-
-  background-image: linear-gradient(45deg, yellow, green);
+    background-image: linear-gradient(45deg, yellow, green);
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-right: 380px;
+    margin-top: -62px;
+    float: right;
+}
+#last-try {
+    height: 10px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-right: 300px
 }
 .no-more-width {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .no-more-width img {
     width: 3%;
